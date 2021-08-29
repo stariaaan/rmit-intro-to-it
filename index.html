@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-light">
+    <nav class="sticky-top navbar navbar-expand-lg navbar-light mb-3 bg-eee2dc">
+        <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-light">
+                        <a class="nav-link active" aria-current="page" href="#team-profile">Team Profile</a>
+                        <a class="nav-link" href="#project-idea">Project Idea & Feedback</a>
+                        <a class="nav-link" href="#it-technologies">IT Technologies</a>
+                        <a class="nav-link" href="#it-work">IT Work</a>
+                        <a class="nav-link" href="#references">References</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+    <div>
+        <!-- Main container -->
+        <div class="container mt-4">
+            <!-- About me & team profile section -->
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h2 class="bg-edc7b7 text-center" id="team-profile">.about me.</h2>
+                    <img class="img-thumbnail w-75 my-3" src="css/img/IMG_6784.jpeg">
+                    <p class="fst-italic">To Thi Ngan Giang</p>
+                    <p>A 26 years-old cat-lover majoring in Information Technology at RMIT Vietnam.</p>
+                    <p class="mb-0">Contact me at:</p>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link py-1 text-ac3b61"
+                                href="https://github.com/stariaaan/rmit-intro-to-it" target="_blank">Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-1 text-ac3b61" href="mailto:s3911504@rmit.edu.vn" target="_blank">E-mail</a>
+                        </li>
+                    </ul>
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-md-8">
+                    <h3>.team name</h3>
+                    <p>No matter what the team is, I think I would talk to my teammates first before deciding one.<br>
+                        For now, the coolest I can think of is "The Team".</p>
+                    <br>
+                    <h3>.team profile</h3>
+                    <p>According to my personality test results <a class="text-ac3b61"
+                            href="https://www.16personalities.com/profiles/18f0055cf4895" target="_blank">(16personalities, 2021)</a>, I
+                        am an observant person, value clarity, and sensitive to stress.
+                        From my learning style test result <a class="text-ac3b61"
+                            href="http://www.educationplanner.org/students/self-assessments/learning-styles-results.shtml?event=results&A=7&V=8&T=5&N=To%20Thi%20Ngan%20Giang" target="_blank">(EducationPlanner,
+                            2021)</a>, I am a visual learner, so I would work better with visualized materials. I
+                        believe my ideal teammates would have these traits:<br><br>
+                        - Actively communicate to understand the team’s goal, personality of each member, and asking for
+                        help when needed.<br><br>
+                        - Take responsibilities for the assigned tasks. Each member should know what they are good at
+                        and what they want to improve upon, so tasks can be divided properly.<br><br>
+                        - Each member should be able to take and give constructive feedbacks.<br><br>
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <!-- End of about me & team profile section -->
+
+            <!-- Project idea & feedback section -->
+            <div class="row">
+                <div class="col-md-1"></div>
+                <!-- Project idea content column -->
+                <div class="col-md-10">
+                    <hr>
+                    <div id="project-idea">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h2 class="bg-edc7b7 text-center my-4">.project idea: donation management</h2>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+
+                        <!-- Main content -->
+                        <div class="d-flex align-items-start mt-3">
+                            <!-- Tabs -->
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-overview-motivation-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-overview-motivation" type="button"
+                                    role="tab" aria-controls="v-pills-overview-motivation" aria-selected="true">Overview
+                                    &<br>Motivation</button>
+                                <button class="nav-link" id="v-pills-description-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-description" type="button" role="tab"
+                                    aria-controls="v-pills-description" aria-selected="false">Description</button>
+                                <button class="nav-link" id="v-pills-tools-technologies-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-tools-technologies-skill" type="button" role="tab"
+                                    aria-controls="v-pills-tools-technologies-skills" aria-selected="false">Technologies
+                                    & Skills</button>
+                                <button class="nav-link" id="v-pills-outcome-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-outcome" type="button" role="tab"
+                                    aria-controls="v-pills-outcome" aria-selected="false">Outcome</button>
+                                <button class="nav-link" id="v-pills-feedback-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-feedback" type="button" role="tab"
+                                    aria-controls="v-pills-feedback" aria-selected="false">Feedback</button>
+                            </div>
+                            <!-- End of tabs -->
+
+                            <!-- Content -->
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <!-- Overview and motivation -->
+                                <div class="tab-pane fade show active" id="v-pills-overview-motivation" role="tabpanel"
+                                    aria-labelledby="v-pills-overview-motivation-tab">
+                                    <div class="px-5">
+                                        <h4 class="fw-bold">#overview</h4>
+                                        <p>
+                                            I want to create an application based on the concept of "Share all that we
+                                            have," which is critical during this lockdown.
+                                            Residents in one area can donate food, clothing, and medicine to the local
+                                            checkpoints.
+                                            At the same time, people in need of resources can check to see if there is
+                                            anything they require at their local checkpoints, call the number listed in
+                                            the description,
+                                            or chat on Zalo/Viber if they are unable to make a phone call.
+                                            People can use this application to ask for help from their neighbors when
+                                            their needs are unique and require immediate assistance.
+                                        <h4 class="fw-bold">#motivation</h4>
+                                        My motivation for this application is because of a man who attempted to go out
+                                        after the curfew to obtain an oxygen cylinder for his son, who has hemangioma
+                                        liver, at home because he only knew of one reliable source <a
+                                            class="text-ac3b61"
+                                            href="https://thanhnien.vn/doi-song/csgt-tphcm-xu-phat-sau-18-gio-lang-nguoi-truoc-ong-bo-cho-binh-oxy-cuu-con-1420898.html" target="_blank">(Ngoc
+                                            & Vu, 2021)</a>.
+                                        I have also tested positive for COVID-19 and have been treating it at home, so I
+                                        understand how difficult it is to obtain medicine if the government is not
+                                        present to assist.
+                                        That is why I am hoping to create this application to support others who are in
+                                        need of assistance during this difficult time.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End of overview and motivation -->
+
+                                <!-- Description -->
+                                <div class="tab-pane fade" id="v-pills-description" role="tabpanel"
+                                    aria-labelledby="v-pills-description-description-tab">
+                                    <div class="px-5">
+                                        <p>The flow of this application <i>(Figure 1. Homescreen)</i> is described in
+                                            <i>Figure 2. Application flow.</i></p>
+                                        <p>
+                                            <button class="btn btn-outline-secondary" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#figure-1"
+                                                aria-expanded="false" aria-controls="figure-1">
+                                                Figure 1. Homescreen
+                                            </button>
+                                            <button class="btn btn-outline-secondary" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#figure-2"
+                                                aria-expanded="false" aria-controls="figure-2">
+                                                Figure 2. Application flow
+                                            </button>
+                                        </p>
+                                        <div class="collapse" id="figure-1">
+                                            <div class="card card-body">
+                                                <img src="/css/img/app-design/Home screen.png">
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="figure-2">
+                                            <div class="card card-body">
+                                                <img src="/css/img/app-design/Frame 1.png">
+                                            </div>
+                                        </div>
+
+                                        <br>
+                                        <p>There are two different flows for two types of user: donators and receivers.
+                                            <br>- <strong>Donators</strong> can apply for donation using the page in
+                                            <i>Figure 3. Donation page.</i>
+                                            <br>- <strong>Receivers</strong> can apply for requests in <i>Figure 4.
+                                                Request page.</i>
+                                            <br>Once a contributor has applied for donations, the district/ward/local
+                                            government in the area will decide who will collect the donations and
+                                            deliver them to the nearest checkpoints/checkpoints that need donations.
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-outline-secondary" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#figure-3"
+                                                aria-expanded="false" aria-controls="figure-3">
+                                                Figure 3. Donation page
+                                            </button>
+                                        </p>
+                                        <div class="collapse" id="figure-3">
+                                            <div class="card card-body">
+                                                <img src="/css/img/app-design/Donate screen.png">
+                                            </div>
+                                        </div>
+
+                                        <br>
+                                        <p>Anyone can request something they need using the screen in <i>Figure 4.
+                                                Request page.</i>
+                                            If what they need is available after they apply for it, the local government
+                                            will transport it from the checkpoints to the requested address.
+                                        </p>
+                                        <p>
+                                            <button class="btn btn-outline-secondary" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#figure-4"
+                                                aria-expanded="false" aria-controls="figure-4">
+                                                Figure 4. Request page
+                                            </button>
+                                        </p>
+                                        <div class="collapse" id="figure-4">
+                                            <div class="card card-body">
+                                                <img src="/css/img/app-design/Request screen.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of description -->
+
+                                <!-- Tools/Technologies and required skills -->
+                                <div class="tab-pane fade" id="v-pills-tools-technologies-skill" role="tabpanel"
+                                    aria-labelledby="v-pills-tools-technologies-skill-tab">
+                                    <div class="px-5">
+                                        <h4 class="fw-bold">#required tools and technologies</h4>
+                                        <ul>
+                                            <li><strong>Visual Studio Code.</strong> A free IDE with many supporting
+                                                extensions.</li>
+                                            <li><strong>Flutter.</strong> Flutter can be exported into iOS-based
+                                                applications and Android-based applications.</li>
+                                            <li><strong>Firebase.</strong> Firebase is Google's mobile application
+                                                development platform that helps build, improve, and grow the
+                                                applications. Firebase can be used to tackle the database problems: user
+                                                account, notification, logging activities.</li>
+                                        </ul>
+                                        <h4 class="fw-bold">#required technical skills</h4>
+                                        <ul>
+                                            <li><strong>UI/UX design.</strong> Application development requires a more
+                                                detailed understanding in UX/UI to make people stay and use the
+                                                application itself.</li>
+                                            <li><strong>Flutter.</strong> Coding and debugging with Flutter is the main
+                                                requirement.</li>
+                                            <li>Experience in <strong>debugging mobile applications</strong> in general
+                                                to fix bugs in both platforms.</li>
+                                            <li>Experience in working with <strong>cloud computing services</strong>,
+                                                Firebase in particular.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- End of tools/technologies and required skills -->
+
+                                <!-- Outcome -->
+                                <div class="tab-pane fade" id="v-pills-outcome" role="tabpanel"
+                                    aria-labelledby="v-pills-outcome-tab">
+                                    <div class="px-5">
+                                        <p>
+                                            Many people misuse donation applications like this <a class="text-ac3b61"
+                                                href="https://vnexpress.net/nhung-loi-keu-cuu-ao-tren-ung-dung-cuu-tro-4345143.html" target="_blank">(Luu,
+                                                2021)</a> due to little to no management.
+                                            In order for this to succeed, the local government/military would need to
+                                            step in to verify each request by phone, reducing the false requests.
+                                            This application will reduce the waiting time if the help someone needs are
+                                            in the neighborhood. At the same time, the military and volunteers can share
+                                            their workload;
+                                            one group can focus on helping people who don’t have access to the internet
+                                            and require in-person , the other can patrol the neighborhood while giving
+                                            out and collecting donations.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End of outcome -->
+
+                                <!-- Feedback -->
+                                <div class="tab-pane fade" id="v-pills-feedback" role="tabpanel"
+                                    aria-labelledby="v-pills-feedback-tab">
+                                    <div class="px-5">
+                                        <ul>
+                                            <li>A friend of mine (s3854233) suggested that I look into the Google Maps
+                                                API. Originally, I planned to post a list of all the checkpoint
+                                                locations, and people would choose the ones that were closest to them.
+                                                Because, based on my previous experience with delivery applications on
+                                                the market, such as Grab and ShopeeFood, they provide us with options
+                                                about the nearest stores based on how far away they are rather than the
+                                                stores within the allowed neighborhood.
+                                                It takes users a long time to find a store both within the allowed area
+                                                and have what they need to buy.
+                                                However, giving users the option to type in their addresses is
+                                                preferable because it allows us to record each user's home address,
+                                                which we can then use in future donations.
+                                            </li>
+                                            <br>
+                                            <li>
+                                                For testing purposes, he also suggested that I'll need at least two
+                                                devices or emulators.
+                                                This feedback made me realize that I had completely forgotten about the
+                                                testing process. Emulators can be free of charge and allow developers to
+                                                test faster, but eventually, we need the actual devices to test on
+                                                before releasing the application to the public.
+                                                The debugging process could be a challenge if there were no devices to
+                                                try since the bugs might only be visible on the actual devices.
+                                            </li>
+                                            <br>
+                                            <li>
+                                                Another friend (s3804811) gave me feedback on using Bootstrap 5 for
+                                                faster website development. Besides the application, this project should
+                                                also have a website for more people to use.
+                                                To do it fast and precisely, using Bootstrap that are cultivated by many
+                                                professionals could help speed up the process and give developers more
+                                                time to tackle other problems. I have never used Bootstrap before, so I
+                                                decided to try it for this personal website project.
+                                            </li>
+                                            <br>
+                                            <li>
+                                                He said there should be a UML diagram for a better visual presenting.
+                                                UML diagram aims to visualize a system, along with its attributes,
+                                                structures, behaviors, and many more.
+                                                This feedback gave me an overview of the UML diagram as I did not know
+                                                what it is.
+                                                Using a UML diagram is also a better way to communicate ideas between
+                                                developers and investors. In case I want someone to invest in my
+                                                projects in the future, I should prepare a UML diagram for better
+                                                negotiation.
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <p>
+                                            Inquiring for constructive feedback helped me understand what I could do to
+                                            improve my application for this project and projects in the future.
+                                            There are aspects I don't have enough experience and knowledge to tackle.
+                                            While conducting online research is a good practice, asking opinions from
+                                            people with different points of view may provide me with more helpful
+                                            information that I would remember longer.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End of feedback -->
+                            </div>
+                            <!-- End of content -->
+                        </div>
+                        <!-- End of main content -->
+                    </div>
+                    <hr>
+                </div>
+                <!-- End of project idea content column -->
+                <div class="col-md-1"></div>
+            </div>
+            <!-- End of project idea & feedback section -->
+
+            <!-- IT Technologies -->
+            <div class="row">
+                <div class="col-md-1"></div>
+                <!-- IT technologies content column -->
+                <div class="col-md-10">
+                    <div id="it-technologies">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h2 class="bg-edc7b7 text-center my-4">.it technologies</h2>
+                            </div>
+                            <div class="col-md-7"></div>
+                        </div>
+
+                        <!-- Main content -->
+                        <div class="d-flex align-items-start mt-3">
+                            <!-- Tabs -->
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-cloud-computing-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-cloud-computing" type="button" role="tab"
+                                    aria-controls="v-pills-cloud-computing"
+                                    aria-selected="true">Cloud<br>computing</button>
+                                <button class="nav-link" id="v-pills-cybersecurity-privacy-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-cybersecurity-privacy" type="button" role="tab"
+                                    aria-controls="v-pills-cybersecurity-privacy"
+                                    aria-selected="false">Cybersecurity<br>& Privacy</button>
+                            </div>
+                            <!-- End of tabs -->
+
+                            <!-- Content -->
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <!-- Cloud computing -->
+                                <div class="tab-pane fade show active" id="v-pills-cloud-computing" role="tabpanel"
+                                    aria-labelledby="v-pills-cloud-computing-tab">
+                                    <div class="px-5">
+                                        <h4 class="fw-bold">#cloud computing</h4>
+                                        <p>
+                                            In my project ideas, I mentioned that I would use Firebase for the
+                                            development. Firebase is a cloud service that provide real-time and
+                                            collaborative applications.
+                                            Using cloud computing services to host a website or an application has
+                                            become a common practice in recent years.
+                                        </p>
+                                        <!-- Cloud services and future / impact-->
+                                        <div class="accordion">
+                                            <!-- cloud services future accordion -->
+                                            <div class="accordion-item">
+                                                <h5 class="accordion-header" id="panelsStayOpen-cloud-service-future">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#panelsStayOpen-cloud-service-future-text"
+                                                        aria-expanded="true"
+                                                        aria-controls="panelsStayOpen-cloud-service-future-text">
+                                                        What cloud service does and the future
+                                                    </button>
+                                                </h5>
+                                                <div id="panelsStayOpen-cloud-service-future-text"
+                                                    class="accordion-collapse collapse show"
+                                                    aria-labelledby="panelsStayOpen-cloud-service-future">
+                                                    <div class="accordion-body">
+                                                        <p>
+                                                            Cloud computing delivers computing services (including
+                                                            servers, storage, databases, networking, software,
+                                                            analytics, and more) remotely over the Internet to provide
+                                                            more resources and flexibility to its users. Cloud computing
+                                                            lets users choose as many services as they need and charge
+                                                            only what they use, while eliminate the worries of investing
+                                                            in hardware and maintenance.
+                                                            This feature helps lower operating costs, allowing the
+                                                            company to run more efficiently and scale the operation as
+                                                            needed due to its scalability, making it less expensive than
+                                                            the traditional-based infrastructure for small
+                                                            organizations.
+                                                            While there are many cloud computing providers, the services
+                                                            often fall into three major categories:
+                                                        </p>
+                                                        <!-- 3 cloud computing services accordion -->
+                                                        <div class="accordion">
+                                                            <div class="accordion-item">
+                                                                <h6 class="accordion-header"
+                                                                    id="panelsStayOpen-headingIAAS">
+                                                                    <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapseIAAS"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="panelsStayOpen-collapseIAAS">
+                                                                        IaaS (Infrastructure-as-a-Service)
+                                                                    </button>
+                                                                </h6>
+                                                                <div id="panelsStayOpen-collapseIAAS"
+                                                                    class="accordion-collapse collapse show"
+                                                                    aria-labelledby="panelsStayOpen-headingIAAS">
+                                                                    <div class="accordion-body">
+                                                                        IaaS offers servers and storage in the Cloud.
+                                                                        Customers of IaaS are tech companies with
+                                                                        thorough IT expert knowledge because the purpose
+                                                                        of IaaS is to have access to computing power
+                                                                        without having to worry about hardware
+                                                                        installation or maintenance.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h6 class="accordion-header"
+                                                                    id="panelsStayOpen-headingPAAS">
+                                                                    <button class="accordion-button collapsed"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapsePAAS"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="panelsStayOpen-collapsePAAS">
+                                                                        PaaS (Platform-as-a-Service)
+                                                                    </button>
+                                                                </h6>
+                                                                <div id="panelsStayOpen-collapsePAAS"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="panelsStayOpen-headingPAAS">
+                                                                    <div class="accordion-body">
+                                                                        PaaS supports the development of software for
+                                                                        computer systems that require a platform by
+                                                                        including software development technologies.
+                                                                        Companies can use this service from writing
+                                                                        software to hosting the finished products and
+                                                                        make them available to internet users.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-item">
+                                                                <h6 class="accordion-header"
+                                                                    id="panelsStayOpen-headingSAAS">
+                                                                    <button class="accordion-button collapsed"
+                                                                        type="button" data-bs-toggle="collapse"
+                                                                        data-bs-target="#panelsStayOpen-collapseSAAS"
+                                                                        aria-expanded="false"
+                                                                        aria-controls="panelsStayOpen-collapseSAAS">
+                                                                        SaaS (Software-as-a-Service)
+                                                                    </button>
+                                                                </h6>
+                                                                <div id="panelsStayOpen-collapseSAAS"
+                                                                    class="accordion-collapse collapse"
+                                                                    aria-labelledby="panelsStayOpen-headingSAAS">
+                                                                    <div class="accordion-body">
+                                                                        SaaS is a software delivery model. It is the
+                                                                        largest and most developed area of Cloud-based
+                                                                        services. Rather than installing on a computer's
+                                                                        hard drive, it is a program or a package of
+                                                                        applications available in the Cloud.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End of 3 cloud computing services accordion -->
+                                                        <br>
+                                                        <p>Many companies are using cloud computing, making one foreseeable change in the near future is that the Cloud providers will offer more data storage with lower prices. For individuals, it increases the computing resources for the users without worrying about hardware.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end of cloud services future accordion -->
+
+                                            <!-- cloud computing impact -->
+                                            <div class="accordion-item">
+                                                <h5 class="accordion-header" id="panelsStayOpen-cloud-impact">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#panelsStayOpen-cloud-impact-text"
+                                                        aria-expanded="false"
+                                                        aria-controls="panelsStayOpen-cloud-impact-text">
+                                                        The impact and what will change
+                                                    </button>
+                                                </h5>
+                                                <div id="panelsStayOpen-cloud-impact-text" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-cloud-impact">
+                                                    <div class="accordion-body">
+                                                        <p>
+                                                            Cloud computing makes daily use services more accessible:
+                                                        </p>
+                                                        <p>- <strong>Store, back up and recover data. </strong>Just about ten years ago, USB and HDD were the standards for storing and transferring data. Nowadays, almost everyone has a cloud storage account to save and share at least 15 gigabytes of data.</p>
+                                                        <p>- <strong>Streaming services/social media platforms.</strong> Most of the social media and entertainment sites are cloud-based applications. People can now stream what is happening for others who live in the other half of the world. Moreover, streaming services, such as Netflix and Spotify, offer people ways to entertain and connect with others.</p>
+                                                        <p>- <strong>Education.</strong> Take Coursera, for example, a cloud-based education service that offers university courses for its users, who can study anytime and anywhere.</p>
+                                                        <p>
+                                                            Cloud computing has changed the way individuals and companies manage data, as well as communication. Working from home is the norm for today society, many services have to adapt to these circumstances. Cloud-based services, such as Microsoft Onedrive and Google Drive, make collaboration more straightforward than ever. 
+                                                            Employees from the same organization or students in the same class could view and share information quickly, increasing productivity and giving people more flexibility. Especially during COVID-19, its ability to let people work and study, as well as spreading information, is improving every day.
+                                                        </p>
+                                                        <p>
+                                                            As the need for these services increase, more inventions would be created. Some of the services and hardware to use them only available to people from the middle class and higher. However, during this pandemic where elementary students, even kindergarten students, must study online, it is challenging for every family to prepare all the needed technologies.
+                                                        </p>
+                                                        <p>
+                                                            More inventions involving Cloud computing will evolve over the next few years, accessible for people from all circumstances. I believe that the more accessible computing is, the more technology-based life will become. From the experience I have studying at RMIT, Cloud-based technologies have been giving me an adaptable study environment. 
+                                                            The learning management system combined with communication tools, Instructure and Teams, enable students to participate in class, rewatch the lecture videos to study at their own pace, sharing working files with other students via Cloud-based storage.
+                                                        </p>
+                                                        <p>
+                                                            Besides online study, Cloud-based shopping sites and delivery applications provide people with easy access to buying essential goods. Without the need to protect the physical server during lockdowns, these companies could let their employees to work from home and finding ways to adapt to the new normal, letting users like my family and myself continue to use their products.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end of cloud computing impact -->
+                                        </div>
+                                        <!-- End of Cloud services and future / impact -->
+                                    </div>
+                                </div>
+                                <!-- End of Cloud computing -->
+
+                                <!-- Cybersecurity & Privacy -->
+                                <div class="tab-pane fade" id="v-pills-cybersecurity-privacy" role="tabpanel"
+                                    aria-labelledby="v-pills-cybersecurity-privacy-tab">
+                                    <div class="px-5">
+                                        <h4 class="fw-bold">#cybersecurity & privacy</h4>
+                                        <p>
+                                            Security and privacy are always the concern of internet users, from internet browsing activity to using cloud-based services. 
+                                            My project needs a lot of effort in taking care of the data, since they are personal and sensitive information.
+                                        </p>
+                                        <!-- Cybersecurity and future / impact-->
+                                        <div class="accordion">
+                                            <!-- cybersecurity future accordion -->
+                                            <div class="accordion-item">
+                                                <h5 class="accordion-header" id="panelsStayOpen-cybersecurity-future">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#panelsStayOpen-cybersecurity-future-text"
+                                                        aria-expanded="true"
+                                                        aria-controls="panelsStayOpen-cybersecurity-future-text">
+                                                        What cloud service does and the future
+                                                    </button>
+                                                </h5>
+                                                <div id="panelsStayOpen-cybersecurity-future-text"
+                                                    class="accordion-collapse collapse show"
+                                                    aria-labelledby="panelsStayOpen-cybersecurity-future">
+                                                    <div class="accordion-body">
+                                                        <p>
+                                                            Cyber security also referred to as information technology security or electronic data security. 
+                                                            It is the practice of defending computers, servers, mobile devices, and data from malicious attacks. The term is used in a variety of contexts, ranging from business to mobile computing, and can be classified into a few general categories.
+                                                        </p>
+                                                        <p>
+                                                            Network security is defending computer networks against attackers. Application security is keeping software and devices safe from threats because a compromised application may expose its data. Data integrity and privacy are protected by information security. 
+                                                            The processes and decisions for handling and protecting data assets are operational security. Operational security includes the permissions that users have when connecting to a network as well as the procedures that govern how and where data can be stored or shared. 
+                                                            By failing to follow good security practices, anyone can inadvertently introduce a virus into a secured system.
+                                                        </p>
+                                                        <p>
+                                                            In the near future, AI could be a very big part in improving security. Nowadays, we can see smartphones and personal laptops using biometric security, such as fingerprint, face recognition, and it is already difficult to break into the devices with these security measurements. 
+                                                            Integrating AI to information security could help prevent leaking sensitive information, for both internet users and organizations. Take Gmail for example, Google already using AI to block spam emails every day.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end of cloud services future accordion -->
+
+                                            <!-- cloud computing impact -->
+                                            <div class="accordion-item">
+                                                <h5 class="accordion-header" id="panelsStayOpen-cybersecurity-impact">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#panelsStayOpen-cybersecurity-impact-text"
+                                                        aria-expanded="false"
+                                                        aria-controls="panelsStayOpen-cybersecurity-impact-text">
+                                                        The impact and what will change
+                                                    </button>
+                                                </h5>
+                                                <div id="panelsStayOpen-cybersecurity-impact-text" class="accordion-collapse collapse"
+                                                    aria-labelledby="panelsStayOpen-cybersecurity-impact">
+                                                    <div class="accordion-body">
+                                                        <p>
+                                                            The list of what AI could do is getting longer every year, and there are some features could be integrated into many security systems, reducing human-error.
+                                                        </p>
+                                                        <p>
+                                                            - Self–learning systems. AI in cyber security allows a system to learn as it grows, self-correcting become more effective and efficient.
+                                                        </p>
+                                                        <p>
+                                                            - Predicting breach risk. With self-learning, the system can learn to predict the risk of breach in a wider scale and prioritize those risks, allowing human to focus on the most serious ones.
+                                                        </p>
+                                                        <p>
+                                                            - Detecting gaps. It is also extremely challenging to test for potential security gaps in large and complex networks manually; on the other hand, AI can handle it. It is now possible for a security system to be frequently updated and get the latest security patches.
+                                                        </p>
+                                                        <p>
+                                                            Automatic threat detection. With AI, threats can be detected before they become costly. The security system can potentially be trained to see a DDoS attack beforehand.
+                                                        </p>
+                                                        <p>
+                                                            Before AI is normalized in security, there are a few steps my family and I can take to protect ourselves from the attackers, 
+                                                            such as updating software and operating system, using anti-virus software, using strong passwords and make sure my family members don't use their names and birthday to create a password, avoid using public WiFi networks that are not protected by passwords.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end of cloud computing impact -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of Cybersecurity & Privacy -->
+                            </div>
+                            <!-- End of content -->
+                        </div>
+                        <!-- End of main content -->
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <!-- End of IT technologies content column -->
+                <div class="col-md-1"></div>
+            </div>
+            <!-- End of IT Technologies -->
+
+            <!-- IT works -->
+            <div class="row mt-4">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h2 class="bg-edc7b7 text-center" id="team-profile">.it work.</h2>
+                    <div>
+                        <img class="img-thumbnail w-75 my-3" src="css/img/ha-dinh-profile.jpeg">
+                    </div>
+                    <p class="fst-italic">Dinh Nhat Ha</p>
+                    <p>A Vietnamese data scientist working in Canada.</p>
+                    <p class="mb-0">Contacts:</p>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link py-1 text-ac3b61"
+                                href="https://www.linkedin.com/in/hanhatdinh/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-1 text-ac3b61" href="https://www.facebook.com/hablogging/" target="_blank">Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-1 text-ac3b61" href="https://medium.com/ha-blogging" target="_blank">Medium</a>
+                        </li>
+                    </ul>
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        This is an interview of between me and a Data Scientist from Canada, Ha Dinh <a class="text-ac3b61"
+                        href="https://www.linkedin.com/in/hanhatdinh/" target="_blank">(LinkedIn, 2021)</a>.
+                    </p>
+                    <br>
+                    <!-- Interview accordion -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading1">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true" aria-controls="panelsStayOpen-collapse1">
+                                    Can you please give us a brief introduction about yourself?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading1">
+                                <div class="accordion-body">
+                                    My name is Ha Dinh. I’m currently working at Shopify as a Data Scientist for their People Analytics team. Before Shopify, I worked for Unbounce as a Product Data Analyst, helping the company understand product adoption, customer retention and segmentation.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading2">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapse2">
+                                    Please tell us about your job. What do you do every day?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading2">
+                                <div class="accordion-body">
+                                    My job can be different from time to time, depending on the project I am involved in. There are 3 main parts of my job.
+                                    <br><strong>Data pipeline</strong>: extract, transform, load data
+                                    <br><strong>Dashboard</strong>: create and track metrics/KPIs
+                                    <br><strong>Deep dive statistical analysis</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading3">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapse3">
+                                    How about the industry you work in? Can you tell us what to expect to work in the tech industry? 
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading3">
+                                <div class="accordion-body">
+                                    Tech industry changes so fast and requires us to update our knowledge constantly. In order to stay updated, I do these:
+                                    <br>
+                                    <br>- Read books and articles
+                                    <br>- Talk to people in the field or outside of Data Science
+                                    <br>- Participate in conference, meetup, and hackathon
+                                    <br>
+                                    <br>Tech industry is fast paced, so besides strengthening my statistics and programming skills, I also try to find little tricks that can help me work faster - reducing manual work as much as possible. I also work closely with my manager to prioritize my work, to make sure I focus on the most important and impactful project all the time. In the tech industry, it is becoming more and more popular to work from home. Knowing how to find focus, work productively at home, but also keep a balance with our life is very important.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading4">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+                                    Besides your main tasks, what other kinds of responsibilities do you have to do?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading4">
+                                <div class="accordion-body">
+                                    My other responsibilities are project management and stakeholder management. Sometimes projects can involve several people from my team and different stakeholders. So I need to make sure pieces of a project flow smoothly and meet deadlines, my stakeholders have reasonable expectations, and everyone is on the same page at all times.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading5">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5">
+                                    Do you work with one fixed team, or does it change for every project? Can you tell us about your team, and what qualifications do you company look at when forming a team?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading5">
+                                <div class="accordion-body">
+                                    My team is fixed, but my project team can change depending on the project.
+                                    Each project can involve different teams with different functionalities.
+                                    <br><br>Qualifications for Data Scientist: technical skill (stats, coding, machine learning for some positions), analytical thinking, communication.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading6">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false" aria-controls="panelsStayOpen-collapse6">
+                                    Were there any teamwork problems?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading6">
+                                <div class="accordion-body">
+                                    Fortunately, I haven’t had any problems with my team.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading7">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false" aria-controls="panelsStayOpen-collapse7">
+                                	Do you directly talk to the company’s clients and investors? If yes, can you tell us about one memorable experience?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading7">
+                                <div class="accordion-body">
+                                    I don’t work directly with these two groups of people.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading8">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse8" aria-expanded="false" aria-controls="panelsStayOpen-collapse8">
+                                    What do you think are the most time-consuming aspects of your job? Please tell us about it.
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse8" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading8">
+                                <div class="accordion-body">
+                                    Form hypothesis - work with stakeholders to break down ambiguous problem to clear questions that we can use data to answer.<br>
+                                    Prepare data for analysis.<br>
+                                    Write data story - linked all insights we find from an analysis to a coherent story that can help inform decision.                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading9">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse9" aria-expanded="false" aria-controls="panelsStayOpen-collapse9">
+                                    From your perspective, are there any challenges that beginners in tech/people who change their career path to tech should look out for?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse9" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading9">
+                                <div class="accordion-body">
+                                    Finding a balance between technical skill and other soft skills will help you go far in this career.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading10">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse10" aria-expanded="false" aria-controls="panelsStayOpen-collapse10">
+                                    I have seen you on many tech talk events lately, can you tell us more about them? What did you and other guests discuss?
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse10" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading10">
+                                <div class="accordion-body">
+                                    Most recently I attended FPT Software Tech Innovator panel series <a class="text-ac3b61" href="https://www.facebook.com/watch/live/?v=551561159615464&ref=watch_permalink" target="_blank">(FPT Software, 2021)</a>, discussing mining the value of data.<br>
+                                I joined with Phong Nguyen (Chief AI of FPT Software), and Khuong Nguyen (ex-Rakuten) to emphasize the importance of data quality, and how we can help organizations make better decisions using data.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <p class="accordion-header" id="panelsStayOpen-heading11">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse11" aria-expanded="false" aria-controls="panelsStayOpen-collapse11">
+                                    Finally, I have seen your blog on Medium and Facebook. What do you plan to do with your blog in the future? 
+                                </button>
+                            </p>
+                            <div id="panelsStayOpen-collapse11" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading11">
+                                <div class="accordion-body">
+                                    I’m sharing my experience working as a Data Scientist and working in Canada in general on my blog <a class="text-ac3b61" href="https://www.facebook.com/hablogging/" target="_blank">Hà Viết Blog</a>. I feel very fulfilled that my blog has helped inspire and motivate a lot of people going into Data Science.
+                                    <br>In the future, I will keep doing casual blogging to continue sharing my experience and engage in conversations with the community. 
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <p>From the conversation with Ms. Ha Dinh, I understand that in order to keep working in the tech industry, I should keep an open mind to learn every day, from self-study to speaking with professionals, even from younger generations who are more exposed to technologies.</p>
+                      </div>
+                    <!-- End of nterview accordion -->
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <!-- End of IT works -->
+
+        </div>
+        <!-- End of main container -->
+
+        <!-- Javascript bundle-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

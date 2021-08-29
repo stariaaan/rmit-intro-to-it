@@ -1,0 +1,46 @@
+/* Custom background color */
+.bg-eee2dc {
+    background-color: #eee2dc;
+}
+
+.bg-edc7b7 {
+    background-color: #edc7b7;
+}
+
+.bg-bab2b5{
+    background-color: #bab2b5;
+}
+
+.bg-123c69{
+    background-color: #123c69;
+}
+
+.bg-ac3b61{
+    background-color: #ac3b61;
+}
+
+/* Custom text color */
+.text-eee2dc {
+    color: #eee2dc;
+}
+
+.text-edc7b7 {
+    color: #edc7b7;
+}
+
+.text-bab2b5 {
+    color: #bab2b5;
+}
+
+.text-123c69 {
+    color: #123c69;
+}
+
+.text-ac3b61 {
+    color: #ac3b61;
+}
+
+/* Custom headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
